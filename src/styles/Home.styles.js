@@ -33,6 +33,17 @@ export const Background = styled.section`
         font-size: 1.4rem;
         font-weight: 400;
     }
+
+    @media( max-height: 375px) {
+
+        display: none;
+
+    }
+    @media( max-width: 320px) {
+
+        display: none;
+
+    }
 `
 
 export const Foto = styled.div`
@@ -70,4 +81,21 @@ export const Buttons = styled.div`
     a:hover{
         background-color: #333719;
     }
+`
+export const Error = styled.section`
+    color: #fff;
+    display: none;
+    justify-content: center;
+
+    @media( max-height: 375px) {
+
+        display: flex;
+        
+    }
+    @media( max-width: 320px) {
+
+        display: flex;
+
+    }
+
 `

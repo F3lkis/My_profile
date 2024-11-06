@@ -1,11 +1,11 @@
-import { Background, Foto, Buttons } from "./styles/Home.styles"
+import { Background, Foto, Buttons, Error } from "./styles/Home.styles"
 import {GlobalStyle} from "./styles/Global.js"
 
 
 export default function App() {
   return (
     <>
-    <Background>
+    <Background id="back">
       <Foto></Foto>
       <h1>Felipe Lira dos Santos</h1>
       <h2>São Paulo, Brasil</h2>
@@ -19,6 +19,9 @@ export default function App() {
         <a href="http://lattes.cnpq.br/7433583054149848" target="_blank" rel= "noopener"> Lattes</a>
       </Buttons>
     </Background>
+    <Error>
+      <h1>unsupported format</h1>
+    </Error>
     <GlobalStyle/> 
     </>
     
