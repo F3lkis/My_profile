@@ -36,7 +36,7 @@ export const Background = styled.section`
 `
 
 export const Foto = styled.div`
-    background-image: url(../public/foto_felipe.jpg);
+    background-image: url(/foto_felipe.jpg);
     background-size: contain;
     border-radius: 100%;
 
