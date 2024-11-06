@@ -34,7 +34,7 @@ export const Background = styled.section`
         font-weight: 400;
     }
 
-    @media( max-height: 375px) {
+    @media( max-height: 640px) {
 
         display: none;
 
@@ -87,7 +87,7 @@ export const Error = styled.section`
     display: none;
     justify-content: center;
 
-    @media( max-height: 375px) {
+    @media( max-height: 640px) {
 
         display: flex;
         
